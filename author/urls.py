@@ -11,4 +11,3 @@ router.register("authors", AuthorViewSet, basename="manage")
 urlpatterns = [
     path("", include(router.urls)),
 ]
-
